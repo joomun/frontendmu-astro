@@ -1,0 +1,18 @@
+---
+const props = Astro.props;
+---
+
+
+<button class="addtocalendar">
+    <var class="atc_event">
+        <var class="atc_date_start">{props.start}</var>
+        <var class="atc_date_end">{props.end}</var>
+        <var class="atc_timezone">{props.timezone}</var>
+        <var class="atc_title">{props.title}</var>
+        <var class="atc_description">{props.description}</var>
+        <var class="atc_location">{props.location}</var>
+        <var class="atc_organizer">{props.organizer}</var>
+        <var class="atc_organizer_email">{props.organizerEmail}</var>
+    </var>
+    Add to Calendar
+</button>
